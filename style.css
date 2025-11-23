@@ -300,12 +300,45 @@ nav {
     margin-right: 8px;
 }
 
-/* Certifications & Education */
-#certifications, #education {
+/* Certifications Section */
+#certifications {
+    background-color: var(--secondary-color);
+}
+
+.certifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+}
+
+.certification-item {
+    background-color: var(--dark-color);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
     text-align: center;
 }
 
-.cert-placeholder, .education-item {
+.certification-item h3 {
+    font-size: 1.3rem;
+    color: var(--light-color);
+    margin-bottom: 8px;
+}
+
+.certification-item p {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Education Section */
+#education {
+    text-align: center;
+}
+
+.education-item {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
